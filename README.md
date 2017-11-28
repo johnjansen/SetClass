@@ -1,8 +1,11 @@
-# SetC
+# SetClass
 [![Build Status](https://travis-ci.org/johnjansen/SetClass.svg?branch=master)](https://travis-ci.org/johnjansen/SetClass)
 
 `Set` as a class NOT as a struct
 enabling inheritance with a fixed type etc 
+
+ideally this will be an EXACT duplicate of the stdlib `Set` `struct`, but as a class (and with a name change)
+tests should all run as per the original (with obvious changes), and this should be maintained in parallel with the stdlib version ... why does this exist ... why does anything exist?
 
 ## Installation
 
@@ -11,7 +14,7 @@ Add this to your application's `shard.yml`:
 ```yaml
 dependencies:
   SetC:
-    github: [johnjansen]/SetC
+    github: johnjansen/SetClass
 ```
 
 ## Usage
@@ -36,7 +39,7 @@ d.max_word_size #=> 4
 
 ## Contributing
 
-1. Fork it ( https://github.com/[johnjansen]/SetC/fork )
+1. Fork it ( https://github.com/johnjansen/SetC/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)
@@ -44,4 +47,4 @@ d.max_word_size #=> 4
 
 ## Contributors
 
-- [[johnjansen]](https://github.com/[johnjansen]) John Jansen - creator, maintainer
+- [johnjansen](https://github.com/johnjansen) John Jansen - creator, maintainer
